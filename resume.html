@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Folayemi Emoruwa</title>
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<style>
+  html, body {
+    height: 100%;
+  }
+  </style>
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth flex flex-col min-h-screen">
+
+  <!-- Header / Navigation -->
+  <nav class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logo + Title -->
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="assets/img/spiral.png" alt="Spiral Logo" class="h-8 w-8">
+        <span class="text-xl font-bold">F.O</span>
+      </a>
+      <!-- Nav Links -->
+      <ul class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 font-medium">
+        <li><a href="index.html" class="hover:text-blue-600">About</a></li>
+        <li><a href="resume.html" class="hover:text-blue-600">Resume</a></li>
+        <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="blog.html" class="hover:text-blue-600">Blog</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Spacer to offset fixed header height -->
+  <div class="h-20"></div>
+
+  <!-- Resume Section -->
+  <section id="resume" class="p-8">
+    <h2 class="text-2xl font-bold mb-4 text-center">Resume</h2>
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="mb-4">Click the button below to view or download my full resume.</p>
+      <a href="assets/Folayemi Emoruwa Resume.pdf" target="_blank"
+         class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300">
+        Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="pt-12 pb-6 px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-600">
+  <div>
+    Email: <a href="mailto:folayemiemoruwa@gmail.com" class="text-black">folayemiemoruwa@gmail.com</a>
+  </div>
+  <div class="text-center sm:text-left flex space-x-4">
+    <a href="https://github.com/efolayemi" target="_blank" aria-label="GitHub">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg" alt="GitHub" class="h-6 w-6">
+    </a>
+    <a href="https://www.linkedin.com/in/efolayemi/" target="_blank" aria-label="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" alt="LinkedIn" class="h-6 w-6">
+    </a>
+  </div>
+</footer>
+
+
+</body>
+</html>
